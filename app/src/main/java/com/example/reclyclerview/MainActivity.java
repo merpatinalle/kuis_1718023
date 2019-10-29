@@ -27,11 +27,11 @@ public class MainActivity extends AppCompatActivity {
     }
      private void addData(){
         keluargaArrayList = new ArrayList<>();
-        keluargaArrayList.add(new keluarga("Sefri M. T. Nalle","ayah", R.drawable.bapa));
+        keluargaArrayList.add(new keluarga("Sefri M. T. Nalle","Ayah", R.drawable.bapa));
         keluargaArrayList.add(new keluarga("Esterfhina Banik", "Ibu",R.drawable.mama));
-        keluargaArrayList.add(new keluarga("Merpati V. A. Nalle","Anak ke-1", R.drawable.merta));
-        keluargaArrayList.add(new keluarga("Bintang E. M. Nalle","Anak ke-2", R.drawable.bintang1));
-        keluargaArrayList.add(new keluarga("Gema N. S. Nalle","Anak ke-3", R.drawable.gema));
-        keluargaArrayList.add(new keluarga("Surya G. A. Nalle","Anak ke-4", R.drawable.surya));
+        keluargaArrayList.add(new keluarga("Merpati V. A. Nalle","Anak pertama", R.drawable.merta));
+        keluargaArrayList.add(new keluarga("Bintang E. M. Nalle","Anak kedua", R.drawable.bintang1));
+        keluargaArrayList.add(new keluarga("Gema N. S. Nalle","Anak ketiga", R.drawable.gema));
+        keluargaArrayList.add(new keluarga("Surya G. A. Nalle","Anak keempat", R.drawable.surya));
     }
 }
